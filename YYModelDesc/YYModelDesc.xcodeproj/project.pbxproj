@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2A85A31A76AE528BA67DFDD1 /* libPods-YYModelDesc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD824011E4890616BD6E0C /* libPods-YYModelDesc.a */; };
+		6301C3CF1FD919CB0042C9EF /* TZWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301C3CE1FD919CB0042C9EF /* TZWLabel.m */; };
+		6301C3D21FD924190042C9EF /* TzwTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301C3D11FD924190042C9EF /* TzwTextParser.m */; };
 		6396AC811FD7F6B0001206A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6396AC801FD7F6B0001206A1 /* AppDelegate.m */; };
 		6396AC841FD7F6B0001206A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6396AC831FD7F6B0001206A1 /* ViewController.m */; };
 		6396AC871FD7F6B0001206A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6396AC851FD7F6B0001206A1 /* Main.storyboard */; };
@@ -40,6 +42,11 @@
 /* Begin PBXFileReference section */
 		1ACD54E0E1372EC13F5CC890 /* Pods-YYModelDesc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYModelDesc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYModelDesc/Pods-YYModelDesc.debug.xcconfig"; sourceTree = "<group>"; };
 		5A49204E81C4CCB77BFCAAC6 /* Pods-YYModelDesc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYModelDesc.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYModelDesc/Pods-YYModelDesc.release.xcconfig"; sourceTree = "<group>"; };
+		6301C3CC1FD917B40042C9EF /* TzwText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TzwText.h; sourceTree = "<group>"; };
+		6301C3CD1FD919CB0042C9EF /* TZWLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZWLabel.h; sourceTree = "<group>"; };
+		6301C3CE1FD919CB0042C9EF /* TZWLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZWLabel.m; sourceTree = "<group>"; };
+		6301C3D01FD924190042C9EF /* TzwTextParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TzwTextParser.h; sourceTree = "<group>"; };
+		6301C3D11FD924190042C9EF /* TzwTextParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TzwTextParser.m; sourceTree = "<group>"; };
 		6396AC7C1FD7F6AF001206A1 /* YYModelDesc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYModelDesc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6396AC7F1FD7F6B0001206A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6396AC801FD7F6B0001206A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +113,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6301C3CB1FD9179A0042C9EF /* TZWText */ = {
+			isa = PBXGroup;
+			children = (
+				6301C3CC1FD917B40042C9EF /* TzwText.h */,
+				6301C3CD1FD919CB0042C9EF /* TZWLabel.h */,
+				6301C3CE1FD919CB0042C9EF /* TZWLabel.m */,
+				6301C3D01FD924190042C9EF /* TzwTextParser.h */,
+				6301C3D11FD924190042C9EF /* TzwTextParser.m */,
+			);
+			path = TZWText;
+			sourceTree = "<group>";
+		};
 		6396AC731FD7F6AF001206A1 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +150,7 @@
 		6396AC7E1FD7F6AF001206A1 /* YYModelDesc */ = {
 			isa = PBXGroup;
 			children = (
+				6301C3CB1FD9179A0042C9EF /* TZWText */,
 				6396ACB71FD8D1BA001206A1 /* NSObject+MiracleModel.h */,
 				6396ACB81FD8D1BA001206A1 /* NSObject+MiracleModel.m */,
 				6396AC7F1FD7F6B0001206A1 /* AppDelegate.h */,
@@ -359,7 +379,9 @@
 				6396ACB31FD8D0BB001206A1 /* LikeYYModel.m in Sources */,
 				6396AC841FD7F6B0001206A1 /* ViewController.m in Sources */,
 				6396ACB91FD8D1BA001206A1 /* NSObject+MiracleModel.m in Sources */,
+				6301C3D21FD924190042C9EF /* TzwTextParser.m in Sources */,
 				6396AC8F1FD7F6B0001206A1 /* main.m in Sources */,
+				6301C3CF1FD919CB0042C9EF /* TZWLabel.m in Sources */,
 				6396AC811FD7F6B0001206A1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
