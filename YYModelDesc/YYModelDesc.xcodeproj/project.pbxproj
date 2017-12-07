@@ -131,6 +131,8 @@
 		6396AC7E1FD7F6AF001206A1 /* YYModelDesc */ = {
 			isa = PBXGroup;
 			children = (
+				6396ACB71FD8D1BA001206A1 /* NSObject+MiracleModel.h */,
+				6396ACB81FD8D1BA001206A1 /* NSObject+MiracleModel.m */,
 				6396AC7F1FD7F6B0001206A1 /* AppDelegate.h */,
 				6396AC801FD7F6B0001206A1 /* AppDelegate.m */,
 				6396AC821FD7F6B0001206A1 /* ViewController.h */,
@@ -142,8 +144,6 @@
 				6396AC8E1FD7F6B0001206A1 /* main.m */,
 				6396ACB11FD8D0BB001206A1 /* LikeYYModel.h */,
 				6396ACB21FD8D0BB001206A1 /* LikeYYModel.m */,
-				6396ACB71FD8D1BA001206A1 /* NSObject+MiracleModel.h */,
-				6396ACB81FD8D1BA001206A1 /* NSObject+MiracleModel.m */,
 			);
 			path = YYModelDesc;
 			sourceTree = "<group>";
